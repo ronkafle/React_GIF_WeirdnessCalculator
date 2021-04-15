@@ -1,0 +1,36 @@
+.favorites {
+  padding: 40px 15px;
+
+  h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .col {
+    min-width: 50%;
+    max-width: 50%;
+  }
+
+  .thumbnail {
+      width: 100%;
+
+      img {
+        width: 100%;
+    }
+  }
+
+  .favorites-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 100%;
+
+      button {
+        margin-bottom: 10px;
+        margin-top: 40px;
+      }
+  }
+}

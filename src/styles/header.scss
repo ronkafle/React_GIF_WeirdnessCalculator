@@ -1,0 +1,15 @@
+.app-header {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  background: #24292e;
+  color: #fff;
+  
+  .header {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
